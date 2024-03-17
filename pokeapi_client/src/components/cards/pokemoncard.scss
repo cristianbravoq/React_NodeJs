@@ -1,0 +1,12 @@
+
+.pokemon--card {
+
+    min-width: 280px;
+
+    .image--pokemon {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        background-color: white;
+    }
+}

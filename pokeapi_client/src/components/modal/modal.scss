@@ -1,0 +1,20 @@
+@import "@/styles/global.scss";
+
+.container--open {
+  width: max-content;
+  cursor: pointer;
+}
+
+.container--body {
+  position: absolute;
+  inset: 50px;
+  border-radius: 17px;
+  z-index: 100;
+  background-color: $color-gris-montaña;
+
+  .button--close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+}

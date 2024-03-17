@@ -1,0 +1,94 @@
+$color-verde-oscuro: #27735d; // Verde oscuro - Montaña
+$color-verde-claro: #71d980; // Verde claro - Páramo
+$color-verde-limon: #d2fc51; // Verde Limon
+$color-gris-claro: #f2f2f2; // Gris claro
+$color-negro: #242424; // Negro
+$color-verde-pinos: #1b4332; // Verde Pinos
+$color-azul-cielo: #6cc1e0; // Azul Cielo
+$color-gris-montaña: #aca9b7; // Gris Montaña
+
+* {
+  font-family: FreeSansBold;
+}
+
+.container--pokemon__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  height: min-content;
+}
+
+ul {
+  padding: 0 !important;
+  li {
+    list-style: none;
+  }
+}
+
+/* Estilos generales para el scrollbar */
+::-webkit-scrollbar {
+  width: 2px; /* Ancho del scrollbar */
+  height: 0px;
+}
+
+/* Estilos para la barra del scrollbar */
+::-webkit-scrollbar-thumb {
+  background: $color-verde-limon; /* Color del thumb del scrollbar */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilos para la barra del scrollbar al pasar el mouse sobre él */
+::-webkit-scrollbar-thumb:hover {
+  background: $color-negro; /* Color del thumb al hacer hover */
+}
+
+/* Estilos para la barra del scrollbar en posición normal */
+::-webkit-scrollbar-track {
+  background: $color-negro; /* Color del track del scrollbar */
+}
+
+/* Estilos para la barra del scrollbar en posición normal */
+::-webkit-scrollbar-track:hover {
+  background: $color-verde-limon; /* Color del track al hacer hover */
+}
+
+@font-face {
+  font-family: "PragmaticaExtraLight";
+  src: url("../../public/fonts/PragmaticaExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FreeSansBold";
+  src: url("../../public/fonts/FreeSansBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FreeSansRegular";
+  src: url("../../public/fonts/FreeSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NimbusSansLight";
+  src: url("../../public/fonts/NimbusSansLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NimbusSansUltraLight";
+  src: url("../../public/fonts/NimbusSansUltraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NimbusSansBecker";
+  src: url("../../public/fonts/NimbusSansBecker.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "PragmaticaMedium";
+  src: url("../../public/fonts/PragmaticaMedium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "WarowniaUltra";
+  src: url("../../public/fonts/WarowniaUltra.otf") format("opentype");
+}
