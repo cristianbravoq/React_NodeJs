@@ -1,5 +1,4 @@
 import "@/styles/global.scss";
-import "@/styles/containers.scss";
 
 import { useContext, useEffect, useState } from "react";
 import { PokemonContext } from "@/contexts/PokemonContext";
